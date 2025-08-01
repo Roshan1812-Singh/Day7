@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import DataManager from './TaskManagerApp';
+// import UseState from './hooks/useState';
+// import { UseEffect } from './hooks/useEffect/UseEffect';
+// import UseCallBack from './hooks/useCallback/UseCallback';
+// import UseContextApp from './hooks/useContext/UseContextApp';
+// import UseMemoApp from './hooks/useMemo/UseMemoApp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       {/* <UseState /> */}
+       {/* <UseEffect /> */}
+       {/* <UseCallBack /> */}
+       {/* <UseContextApp /> */}
+       {/* <UseMemoApp /> */}
+      <DataManager />
+    </>
   );
 }
 
