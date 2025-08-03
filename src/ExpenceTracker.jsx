@@ -79,7 +79,7 @@ const ExpenceTracker = () => {
   //   The total amount of balance left
   const balance = totalIncome - totalExpenses;
 
-   return (
+  return (
     <Box sx={{ maxWidth: 600, margin: "auto", padding: 2 }}>
       <Typography variant="h4" gutterBottom>
         Income/Expense Tracker
@@ -167,9 +167,7 @@ const ExpenceTracker = () => {
         </List>
       </Paper>
 
-      <Typography variant="subtitle1">
-        Expenses
-      </Typography>
+      <Typography variant="subtitle1">Expenses</Typography>
       <Paper>
         <List>
           {filteredExpenses.map(({ id, amount, date }) => (

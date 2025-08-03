@@ -1,12 +1,14 @@
 import './App.css';
-import ExpenseTracker from './ExpenceTracker';
+import RecipeMaker from './components/RecipeMaker';
+// import ExpenseTracker from './ExpenceTracker';
 // import DataManager from './TaskManagerApp';
 
 function App() {
   return (
     <>
       {/* <DataManager /> */}
-      <ExpenseTracker />
+      {/* <ExpenseTracker /> */}
+      <RecipeMaker />
     </>
   );
 }
